@@ -1,0 +1,7 @@
+name,Goblin
+drop,club
+max health,1
+movement,2
+movement actions,1
+attack,1
+attack strength,2

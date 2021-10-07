@@ -1,0 +1,7 @@
+name,Witch
+drop,dust
+max health,3
+movement,3
+movement actions,1
+attack,1
+attack strength,2

@@ -1,0 +1,7 @@
+name,Wolf
+drop,meat
+max health,2
+movement,3
+movement actions,2
+attack,1
+attack strength,1

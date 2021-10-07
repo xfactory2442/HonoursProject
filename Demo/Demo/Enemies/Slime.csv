@@ -1,0 +1,7 @@
+name,Slime
+drop,Jelly
+max health,4
+movement,3
+movement actions,1
+attack,1
+attack strength,1

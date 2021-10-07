@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\aleys\Desktop\Uni Year 4\Honours Project\Demo\Demo\Demo\</FILEPATH>
+      <FILENAME>Memories.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Memories::Memory::turns_ago_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Memories::Memory::{ctor}</FUNCTION>
+    <DECORATED>??0Memory@Memories@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Memories::Memory::turns_ago_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\aleys\Desktop\Uni Year 4\Honours Project\Demo\Demo\Demo\</FILEPATH>
+      <FILENAME>Memories.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Memories::Memory::where_it_happened_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Memories::Memory::{ctor}</FUNCTION>
+    <DECORATED>??0Memory@Memories@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Memories::Memory::where_it_happened_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\aleys\Desktop\Uni Year 4\Honours Project\Demo\Demo\Demo\</FILEPATH>
+      <FILENAME>Memories.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Memories::Memory::turns_total_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Memories::Memory::{ctor}</FUNCTION>
+    <DECORATED>??0Memory@Memories@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Memories::Memory::turns_total_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

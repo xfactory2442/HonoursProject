@@ -1,0 +1,11 @@
+Wood,Gather Wood,,,,
+Stone,Mine Stone,,,,
+Ore,Mine Ore,,,,
+Iron,Smelt Iron,Ore,1,Wood,1
+Food,Cook Food,Meat,1,,
+Water,Collect Water,,,,
+Salt,Collect Salt,,,,
+Leather,Tan Leather,,,,
+Meat,Hunt For Meat,,,,
+Stone Statue,Carve Stone Statue,Stone,1,,
+Wood Statue,Carve Wood Statue,Wood,1,,

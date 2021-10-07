@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Sprites">
+      <UniqueIdentifier>{7c2361b8-131d-4e2f-aa5c-3579a697a44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{a0a4758f-3c3c-4e46-aa95-b3a9e3e6551c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprites">
+      <UniqueIdentifier>{e83f5138-734d-438f-81ce-a5c38861aefb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{0a1362ff-7994-4117-afc1-566367febc14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General">
+      <UniqueIdentifier>{06882990-ccb2-4d42-97a0-cbc7fe5d585b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\General">
+      <UniqueIdentifier>{739456a7-e0ea-401a-910e-a7b1000fb6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprites\Characters">
+      <UniqueIdentifier>{170e9008-7006-44f8-bcfc-5f5df67fc4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sprites\Character">
+      <UniqueIdentifier>{78963706-0a7a-42ff-886e-59e73c8f95e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sprites\Pathfinding">
+      <UniqueIdentifier>{a7b12c9b-7029-4408-a484-9479d79f3a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprites\Pathfinding">
+      <UniqueIdentifier>{563d93a4-1c92-4b64-8147-6b5720041656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameMechanics">
+      <UniqueIdentifier>{f17ec1c0-51d9-465f-80fd-d497ed8d17b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameMechanics">
+      <UniqueIdentifier>{9b0a96df-79bf-43ff-af14-dd1a2f45044b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TasksAndQuests">
+      <UniqueIdentifier>{3b731e26-1ceb-4de4-a2b5-405505798696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TasksAndQuests">
+      <UniqueIdentifier>{3566fabe-02c5-45c0-9663-d80b6f0ac999}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralFunctions.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoWindow.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Sprites\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Sprites\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Source Files\Sprites\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\Sprites\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\Sprites\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding.cpp">
+      <Filter>Source Files\Sprites\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Memories.cpp">
+      <Filter>Source Files\Sprites\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnManager.cpp">
+      <Filter>Source Files\GameMechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="FailureScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Source Files\TasksAndQuests</Filter>
+    </ClCompile>
+    <ClCompile Include="LocationScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Sprites\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralVariables.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>Source Files\Sprites\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="LocationManager.cpp">
+      <Filter>Source Files\TasksAndQuests</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskLocation.cpp">
+      <Filter>Source Files\TasksAndQuests</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\TasksAndQuests</Filter>
+    </ClCompile>
+    <ClCompile Include="GridObject.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest.cpp">
+      <Filter>Source Files\TasksAndQuests</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Source Files\TasksAndQuests</Filter>
+    </ClCompile>
+    <ClCompile Include="ThingsToDoAtLocation.cpp">
+      <Filter>Source Files\TasksAndQuests</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsAndInventoryScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestLocation.cpp">
+      <Filter>Source Files\TasksAndQuests</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestManager.cpp">
+      <Filter>Source Files\TasksAndQuests</Filter>
+    </ClCompile>
+    <ClCompile Include="Icon.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoWindow.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralFunctions.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Sprites\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Sprites\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Header Files\Sprites\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Sprites\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files\Sprites\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding.h">
+      <Filter>Header Files\Sprites\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Memories.h">
+      <Filter>Header Files\Sprites\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnManager.h">
+      <Filter>Header Files\GameMechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="FailureScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Header Files\TasksAndQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Sprites\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralVariables.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>Header Files\Sprites\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationManager.h">
+      <Filter>Header Files\TasksAndQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskLocation.h">
+      <Filter>Header Files\TasksAndQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\TasksAndQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="GridObject.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.h">
+      <Filter>Header Files\TasksAndQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Header Files\TasksAndQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="ThingsToDoAtLocation.h">
+      <Filter>Header Files\TasksAndQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsAndInventoryScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestLocation.h">
+      <Filter>Header Files\TasksAndQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestManager.h">
+      <Filter>Header Files\TasksAndQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="Icon.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

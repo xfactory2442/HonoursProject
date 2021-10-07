@@ -1,0 +1,54 @@
+﻿  Using triplet "x64-windows" from "C:\Users\aleys\vcpkg\installed\x64-windows\"
+  Character.cpp
+  CharacterManager.cpp
+  Enemy.cpp
+  Grid.cpp
+  InfoWindow.cpp
+C:\Users\aleys\Desktop\Uni Year 4\Honours Project\Demo\Demo\Demo\InfoWindow.cpp(22,37): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\aleys\Desktop\Uni Year 4\Honours Project\Demo\Demo\Demo\InfoWindow.cpp(170,17): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  Location.cpp
+  LocationManager.cpp
+  LocationScene.cpp
+  Main.cpp
+  MainScene.cpp
+  NPC.cpp
+  Node.cpp
+  Pathfinding.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Users\aleys\Desktop\Uni Year 4\Honours Project\Demo\Demo\Demo\Pathfinding.cpp(107): message : see reference to function template instantiation 'std::pair<Node *,float>::pair<Node*&,int,0>(_Other1,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=Node *&,
+              _Other2=int
+          ]
+C:\Users\aleys\Desktop\Uni Year 4\Honours Project\Demo\Demo\Demo\Pathfinding.cpp(106): message : see reference to function template instantiation 'std::pair<Node *,float>::pair<Node*&,int,0>(_Other1,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=Node *&,
+              _Other2=int
+          ]
+  Player.cpp
+  Quest.cpp
+  QuestLocation.cpp
+  QuestManager.cpp
+  ResourceManager.cpp
+  StatsAndInventoryScene.cpp
+  Task.cpp
+  Compiling...
+  TaskLocation.cpp
+  ThingsToDoAtLocation.cpp
+  TurnManager.cpp
+  Generating code
+  17 of 2591 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    129 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Demo.vcxproj -> C:\Users\aleys\Desktop\Uni Year 4\Honours Project\Demo\Demo\x64\Release\Demo.exe

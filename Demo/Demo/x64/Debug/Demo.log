@@ -1,0 +1,68 @@
+﻿  Using triplet "x64-windows" from "C:\Users\aleys\vcpkg\installed\x64-windows\"
+  AnimationManager.cpp
+  Button.cpp
+C:\Users\aleys\Desktop\Visual Studio Projects\HonoursProject\Demo\Demo\Button.cpp(9,28): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Character.cpp
+  CharacterManager.cpp
+  Enemy.cpp
+  FailureScene.cpp
+  GridObject.cpp
+  GeneralFunctions.cpp
+C:\Users\aleys\Desktop\Visual Studio Projects\HonoursProject\Demo\Demo\GeneralFunctions.cpp(42,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\aleys\Desktop\Visual Studio Projects\HonoursProject\Demo\Demo\GeneralFunctions.cpp(101,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\aleys\Desktop\Visual Studio Projects\HonoursProject\Demo\Demo\GeneralFunctions.cpp(125,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  GeneralVariables.cpp
+  Icon.cpp
+  InfoWindow.cpp
+C:\Users\aleys\Desktop\Visual Studio Projects\HonoursProject\Demo\Demo\InfoWindow.cpp(27,37): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\aleys\Desktop\Visual Studio Projects\HonoursProject\Demo\Demo\InfoWindow.cpp(186,17): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  Input.cpp
+  Location.cpp
+  LocationManager.cpp
+  LocationScene.cpp
+  Main.cpp
+  MainScene.cpp
+  Memories.cpp
+  MenuScene.cpp
+  Node.cpp
+  Generating Code...
+  Compiling...
+  NPC.cpp
+  Grid.cpp
+  GameObject.cpp
+  Pathfinding.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Users\aleys\Desktop\Visual Studio Projects\HonoursProject\Demo\Demo\Pathfinding.cpp(107): message : see reference to function template instantiation 'std::pair<Node *,float>::pair<Node*&,int,0>(_Other1,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=Node *&,
+              _Other2=int
+          ]
+C:\Users\aleys\Desktop\Visual Studio Projects\HonoursProject\Demo\Demo\Pathfinding.cpp(106): message : see reference to function template instantiation 'std::pair<Node *,float>::pair<Node*&,int,0>(_Other1,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=Node *&,
+              _Other2=int
+          ]
+  Player.cpp
+  QuestLocation.cpp
+  QuestManager.cpp
+  ResourceManager.cpp
+  Scene.cpp
+  SceneManager.cpp
+  Quest.cpp
+  StatsAndInventoryScene.cpp
+  Task.cpp
+  TaskLocation.cpp
+  ThingsToDoAtLocation.cpp
+  TurnManager.cpp
+  Generating Code...
+  Demo.vcxproj -> C:\Users\aleys\Desktop\Visual Studio Projects\HonoursProject\Demo\x64\Debug\Demo.exe
