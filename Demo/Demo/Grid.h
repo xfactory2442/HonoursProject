@@ -41,8 +41,6 @@ public:
 
 	void RenderGridPieces();
 	void RenderLocationIndicators();
-
-	bool SmoothCameraToGridNode(float dt);
 	
 	//Static variables.
 	//The distance between nodes/size of grid pieces.
